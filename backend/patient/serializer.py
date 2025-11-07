@@ -1,0 +1,7 @@
+from rest_framework import serializers
+from .models import Patient
+
+class PatientSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Patient  # ✅ singular
+        fields = '__all__'

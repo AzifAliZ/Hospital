@@ -1,0 +1,139 @@
+/* App.css */
+
+/* General page styles */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #0ff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0ff;
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #0ff;
+  border-radius: 5px;
+  background-color: #121212;
+  color: #0ff;
+  font-size: 16px;
+}
+
+.form-container input:focus,
+.form-container select:focus,
+.form-container textarea:focus {
+  outline: none;
+  border-color: #00ffff;
+  box-shadow: 0 0 5px #0ff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+/* Submit button */
+.submit-btn {
+  padding: 10px;
+  background-color: #0ff;
+  color: #121212;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #00cccc;
+  color: #fff;
+}
+
+/* Patient list */
+.patient-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.patient-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  border: 2px solid #0ff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  transition: transform 0.2s ease;
+}
+
+.patient-card:hover {
+  transform: scale(1.02);
+}
+
+/* Patient info */
+.patient-info h3 {
+  margin: 0 0 5px 0;
+}
+
+.patient-info p {
+  margin: 2px 0;
+}
+
+/* Buttons inside each patient card */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.edit-btn {
+  background-color: #00cccc;
+  color: #121212;
+}
+
+.edit-btn:hover {
+  background-color: #0ff;
+}
+
+.delete-btn {
+  background-color: #ff4444;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
