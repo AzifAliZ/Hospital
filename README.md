@@ -7,6 +7,17 @@ This app allows users to **add, view, edit, and delete patient details**, all ma
 
 ---
 
+
+## 🖼️ App Preview
+
+| Home Page | Add Patient | Patient List |
+|------------|-------------|---------------|
+| ![Home](https://via.placeholder.com/300x200?text=Home+Page) | ![Add](https://via.placeholder.com/300x200?text=Add+Patient) | ![List](https://via.placeholder.com/300x200?text=Patient+List) |
+
+
+
+---
+
 ## 🚀 Features
 
 ✅ Add new patients with details (name, age, disease, etc.)
