@@ -12,8 +12,7 @@ This app allows users to **add, view, edit, and delete patient details**, all ma
 
 | Home Page | Add Patient | Patient List |
 |------------|-------------|---------------|
-| ![Home](https://via.placeholder.com/300x200?text=Home+Page) | ![Add](https://via.placeholder.com/300x200?text=Add+Patient) | ![List](https://via.placeholder.com/300x200?text=Patient+List) |
-
+| ![Home](https://github.com/AzifAliZ/Hospital/blob/master/Screenshot%20(220).png) |
 
 
 ---
